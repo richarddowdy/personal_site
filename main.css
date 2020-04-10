@@ -5,7 +5,18 @@
 }
 
 .online-presence a i{
-  height: 75px;
-  width: 75px;
+  margin: 0 20px;
+  color: black;
+  text-align: center;
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(210, 210, 210);
+  color: white;
   text-align: center;
 }
