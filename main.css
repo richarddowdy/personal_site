@@ -1,20 +1,20 @@
-.my-picture {
-  height: 200px;
-  box-shadow: 6px 4px 4px grey;
-  margin-top: 20px;
+.intro-head, .projects-head, .skills-head{
+  font-size: 40px;
+  font-weight: 500;
 }
+
+.greeting{
+  font-size: 26px;
+  font-weight: 200;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .online-presence{
   position: absolute;
-  right: 0%;
+  right: 1%;
   top: 14px;
 }
-@media (max-width: 991px){
-  .online-presence{
-    position: relative;
-    top: 0;
-    right: 10px;
-  }
-}
+
 .online-presence a {
   margin: 0 10px;
   text-align: center;
@@ -26,10 +26,56 @@
   color: white;
 }
 
-.icon {
-  height:100px;
-  width:100px;
+.my-picture {
+  height: 250px;
+  box-shadow: 6px 4px 4px grey;
+  margin-top: 20px;
 }
-.card{
-  border: 2px black solid;
+
+.card {
+  width: 10rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 2px 1px 2px grey;
+}
+.contact-list{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+a.contact-link{
+  text-decoration: none;
+  color:black;
+}
+
+@media (max-width: 991px){
+  .online-presence{
+    position: relative;
+    top: 0;
+    right: 10px;
+  }
+  .card{
+    font-size: 12px;
+    font-weight: bold;
+    width: 8rem;
+  }
+}
+
+@media (max-width: 767px){
+  .card{
+    font-size: 8px;
+    font-weight: bold;
+    width: 6rem;
+  }
+  .projects-head, .skills-head, .intro-head {
+    font-size: 28px;
+    font-weight: 600;
+    text-align:center;
+  } 
+  .greeting{
+    font-size: 18px;
+    font-weight: 200;
+  }
 }
