@@ -1,3 +1,29 @@
+body{
+  background-color: rgb(250, 250, 250);
+}
+
+nav{
+  background-color: dodgerblue;
+}
+#active{
+  color: white;
+}
+
+.card a {
+  color: white;
+  background-color: dodgerblue;
+  text-decoration: none;
+}
+.card a:hover {
+  color: white;
+  background-color: rgb(20, 110, 200);
+  text-decoration: none;
+}
+
+section{
+  margin: 150px 0 80px 0;
+}
+
 .intro-head, .projects-head, .skills-head{
   font-size: 40px;
   font-weight: 500;
@@ -18,12 +44,14 @@
 .online-presence a {
   margin: 0 10px;
   text-align: center;
-  color:black;
+  color:rgb(20, 20, 20);
   text-decoration: none;
 }
 
 .online-presence a:hover{
-  color: white;
+  color: rgb(240, 240, 240);
+  background-color: dodgerblue;
+  border-radius: none;
 }
 
 .my-picture {
@@ -37,7 +65,7 @@
   font-weight: bold;
   text-align: center;
   background-color: rgb(245, 245, 245);
-  box-shadow: 2px 1px 2px grey;
+  border: 2px rgb(190, 190, 190) solid;
 }
 .contact-list{
   list-style: none;
@@ -60,6 +88,10 @@
 }
 
 @media (max-width: 991px){
+  section{
+    margin: 120px 0 50px 0;
+  }
+
   .online-presence{
     position: relative;
     top: 0;
@@ -73,6 +105,13 @@
 }
 
 @media (max-width: 767px){
+  nav{
+    margin-bottom: 50px;
+  }
+  section{
+    margin-bottom: 80px;
+  }
+
   .card{
     font-size: 8px;
     font-weight: bold;
