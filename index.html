@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:description" content="My Personal Website" />
+  <meta property="og:title" content="Personal Site" />
+  <meta property="og:url" content="http://www.richarddowdy.io/" />
+  <meta property="og:type" content="personal" />
+  <meta property="og:image" content="http://www.richarddowdy.io/images/thumbnail.png" />
   <title>Richard Dowdy - Home</title>
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -35,10 +40,9 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="https://warbler-rithm14.herokuapp.com/" target="_blank">Warbler</a>
             <a class="dropdown-item" href="https://jumpoffcampus.com/" target="_blank">JumpOffCampus</a>
-            <a class="dropdown-item" href="https://dowdy-covid-tracker.netlify.app/" target="_blank">Covid-Tracker</a>
+            <a class="dropdown-item" href="https://covid-tracker-map.herokuapp.com/" target="_blank">Covid-Tracker</a>
+            <a class="dropdown-item" href="https://blog-v2.herokuapp.com/" target="_blank">MicroBlog</a>
             <!-- TODO - Add more project links as they are completed
-            <a class="dropdown-item" href="#">Microblog</a>
-            <a class="dropdown-item" href="#">Blogly</a>
             <a class="dropdown-item" href="#">Jobly</a> -->
           </div>
         </li>
@@ -75,7 +79,7 @@
       </div>
       <div class="projects-cards container d-flex flex-wrap justify-content-around col-10">
         
-        <div class="card mb-5" style="width: 18rem;">
+        <div class="card m-3" style="width: 18rem;">
           <img src="images/joc_screenshot_small.png" class="card-img-top" alt="JOC-screenshot">
           <div class="card-body">
             <h3 class="card-title">JumpOffCampus</h3>
@@ -85,7 +89,7 @@
           </div>
         </div>
 
-        <div class="card mb-5" style="width: 18rem;">
+        <div class="card m-3" style="width: 18rem;">
           <img src="images/warbler_screenshot_small.png" class="card-img-top" alt="Warbler-screenshot">
           <div class="card-body">
             <h3 class="card-title">Warbler</h3>
@@ -95,13 +99,23 @@
           </div>
         </div>
 
-        <div class="card mb-5" style="width: 18rem;">
+        <div class="card m-3" style="width: 18rem;">
           <img src="images/covid-tracker.png" class="card-img-top" alt="Covid-Tracker-screenshot">
           <div class="card-body">
             <h3 class="card-title">Covid-Tracker</h3>
             <p class="card-text">Data visualization of COVID-19 cases in US</p>
             <p class="card-text">Technologies: <i>React/Redux, Redux-Thunk, d3.js</i></p>
-            <a href="https://dowdy-covid-tracker.netlify.app/" target="_blank" class="btn">Check Out Covid-Tracker</a>
+            <a href="https://covid-tracker-map.herokuapp.com/" target="_blank" class="btn">Check Out Covid-Tracker</a>
+          </div>
+        </div>
+
+        <div class="card m-3" style="width: 18rem;">
+          <img src="images/microblog.png" class="card-img-top" alt="MicroBlog-screenshot">
+          <div class="card-body">
+            <h3 class="card-title">MicroBlog</h3>
+            <p class="card-text">Social Blogging Application</p>
+            <p class="card-text">Technologies: <i>React/Redux, Redux-Thunk, Node/Express, Postgres.</i></p>
+            <a href="https://https://blog-v2.herokuapp.com/" target="_blank" class="btn">Check Out MicroBlog</a>
           </div>
         </div>
 
